@@ -1,0 +1,83 @@
+.contact-main-div{
+    min-height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url('../images/woxroglobe.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+.contact-heading{
+    width: 70%;
+}
+.contact-heading h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin:30px ;
+}
+.contact-btn-div{
+    display: flex;
+    width: auto;
+    
+}
+.contact-btn{
+    height: 50px;
+    width: 120px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-color: white;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+.contact-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .contact-main-div{
+        min-height: 340px;
+        max-width: 100%;
+
+    }
+    .contact-btn-div{
+        height: 100px;
+    }
+    .contact-heading{
+        margin: 0px;
+    }
+    .contact-heading h3{
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        margin:30px ;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contact-heading{
+        width: auto;
+       height: auto;
+       margin: 10px;
+    }
+    .contact-btn-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .contact-main-div{
+        height: 340px;
+        max-width: 320px;
+
+    }
+    .contact-btn-div{
+        height: 100px;
+    }
+    .contact-heading{
+        margin: 0px;
+    }
+}

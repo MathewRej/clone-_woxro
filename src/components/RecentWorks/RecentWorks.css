@@ -1,0 +1,122 @@
+.recentworks-heading-div{
+    padding: 20px;
+}
+.recentworks-main-div{
+    background-color: #f8f8f8;
+    width: 100%;
+    min-height: 700px;
+    padding-bottom: 3rem;
+}
+.recentworks-heading-div h5{
+    text-align: center;
+    color: #696969;
+    padding: 20px;
+    letter-spacing: 0.3rem;
+    font-family: Poppins, sans-serif;
+}
+.recentworks-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    font-family: Poppins, sans-serif;
+    margin: 20px;
+}
+.recentworks-title{
+    align-items: center;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #696969;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    letter-spacing: 0.06rem;
+    font-family: Poppins, sans-serif;
+}
+.boohoo{
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+}
+
+.recentworks-lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+.boohoo-title{
+    margin: 10px;
+}
+.boohoo-title b{
+    color: #464545;
+}
+.boohoo-title p {
+    color: #464545;
+}
+/* .works-img{
+    height: 200px;
+    width: 355px;
+    transition: ease-out;
+    margin: 0 auto;
+} */
+/* .works-img:hover{
+    transform: scale(1.01)
+} */
+.view-project-div{
+    text-align: center;
+}
+.view-projects-btn{
+    height: 60px;
+    width: 200px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #696969;
+    color: #696969;
+}
+.view-projects-btn:hover{
+    color: black;
+    border-color: black;
+}
+.project-link{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1110px){
+    .recentworks-lists{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        }
+}
+@media only screen and (max-width: 600px) {
+    .recentworks-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
+    
+}
+@media only screen and (max-width: 320px) {
+    .recentworks-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
+        .boohoo{
+            max-width: 320px;
+            margin: 0px;
+        }
+        .works-img{
+            height: 200px;
+            width: 320px;
+        }
+        }
+    
+

@@ -1,0 +1,66 @@
+.hiring-div{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.hiring-hiring{
+    color: white;
+    margin: 20px;
+    width: 55%;
+}
+.hiring-link{
+    color: white;
+    text-decoration: none;
+}
+.hiring-phone{
+    display: flex;
+    margin: 20px;
+}
+.phone-link{
+    color: white;
+    text-decoration: none;
+}
+.hiring-location ul{
+    color: white;
+}
+.hiring-location{
+    display: flex;
+    margin: 20px;
+    
+}
+.location-div{
+    color: white;
+}
+.phone-location-div{
+    display: flex;
+    width: 55%;
+    
+}
+@media only screen and (max-width: 768px) {
+    .hiring-div{
+        display: none;
+        
+    }
+}
+.phone-icons{
+    color: white;
+}
+.location-icon{
+    color: white;
+}
+/* @media only screen and (max-width: 320px) {
+    .hiring-hiring{
+        color: white;
+        margin: 20px;
+        width: auto;
+    }
+    .phone-location-div{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+} */

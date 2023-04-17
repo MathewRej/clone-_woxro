@@ -1,0 +1,121 @@
+.clientsupport-main-div{
+    background-image: url('../images/woxro_slide.png');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.clientsupport-div b{
+    color: white;
+    font-size: 50px;
+   
+}
+.clientsupport-div p{
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 0.06rem;
+}
+.clientsupport-heading{
+    padding-inline: 5rem;
+    padding-block: 2.5rem;
+}
+.clientsupport-btn-div{
+    display: flex;
+    padding-inline: 5rem;
+}
+
+.client-login-btn{
+    height: 60px;
+    width: 180px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.client-meeting-btn{
+    height: 60px;
+    width: 180px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.client-login-btn:hover{
+    height: 60px;
+    width: 180px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border-color: #585858;
+    color: #585858;cursor: pointer;
+}
+.client-meeting-btn:hover{
+    height: 60px;
+    width: 180px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border-color: #585858;
+    color: #585858;cursor: pointer;
+}
+.clientsupport-btn-div a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .clientsupport-btn-div{
+        display: flex;
+        flex-direction: row;
+        padding-inline: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .clientsupport-main-div{
+        background-image: url('../images/woxro_slide.png');
+        height: 650px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+@media only screen and (max-width: 370px) {
+    .clientsupport-btn-div{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .client-meeting-btn{
+        height: 60px;
+        width: 180px;
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        border-color: white;
+        color: white;
+        margin-left: 0px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .clientsupport-main-div{
+        background-image: url('../images/woxro_slide.png');
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 2rem;
+        
+    }
+  
+}

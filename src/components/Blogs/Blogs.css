@@ -1,0 +1,128 @@
+.blogs-main-div{
+    background-color: #f8f8f8;
+    
+}
+.blogs-heading{
+    padding: 20px;
+}
+.blogs-heading h5{
+    text-align: center;
+    color: #696969;
+    padding: 20px;
+    letter-spacing: 0.3rem;
+}
+.blogs-heading p{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    font-family: sans-serif;
+    margin: 20px;
+    color: #161a1e;
+}
+.commmunication-div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.commmunication-div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.blogs-content a{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+.blogs-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.blogs-content{
+    background-color: white;
+    height: 435px;
+    margin: 10px;
+}
+.blogs-content-author img{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+.blogs-content-author{
+    display: flex;
+    margin: 10px;
+}
+.blog-author-cont{
+    display: flex;
+    flex-direction: column;
+}
+.author-name{
+    color: #a5a5a5;
+    font-size: small;
+}
+.author-date{
+    color: #696969;
+    font-size: small;
+}
+.author-title{
+    margin: 10px;
+}
+.author-content p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 10px;
+    color: #464545;
+    font-size: 15px;
+}
+@media only screen and (max-width: 1110px){
+    .blogs-details{
+        display: grid;
+       grid-template-columns: repeat(2, auto);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .blogs-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+.blog-btn-div a {
+    color: #a5a5a5;
+    padding: 1rem;
+    border: 1px solid #a5a5a5;
+    width: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+.blog-btn-div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-block: 3rem;
+}
+@media only screen and (max-width: 320px){
+    .blogs-content{
+       margin: 0px;
+    }
+    .blogs-content a{
+        width: 320px;
+    }
+}

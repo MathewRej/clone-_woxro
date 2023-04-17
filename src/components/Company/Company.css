@@ -1,0 +1,118 @@
+.banner-video{
+    object-fit: cover;
+    opacity: 0.4;
+    max-height: 550px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+   
+
+}
+.company-main-div{
+    position:relative;
+    z-index:0;
+    background-color: black;
+    margin-top: 1px;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.overlay h1{
+    font-size: 5rem;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+}
+.overlay p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3.5rem;
+    margin-inline: 5rem;
+    letter-spacing: 0.06rem;
+    font-family: "Poppins",sans-serif;
+    color: white;
+    
+}
+@media only screen and (max-width: 768px) {
+    .overlay {
+        position:absolute;
+        top: 75px;;
+        left:0;
+        z-index:1;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+    .company-main-div{
+        position:relative;
+        z-index:0;
+        top: 20px;
+        background-color: black;
+        padding-top: 30px;
+    }
+    .overlay p{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 3.5rem;
+        margin-inline: 5rem;
+        letter-spacing: 0.06rem;
+        color: white;
+    }
+    .overlay h1{
+        font-size: 60px;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        font-family: "Poppins",sans-serif;
+        font-weight: bolder;
+        line-height: 1.3;
+        font-weight: bolder;
+    }
+    .company-main-div{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .overlay p{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-inline: 0px;
+        letter-spacing: 0.06rem;
+        color: white;
+    }
+    .overlay h1{
+    font-size: 45px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+}
+}
+@media only screen and (max-width: 320px) {
+    .overlay p{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 0px;
+        margin-inline: 0px;
+        letter-spacing: 0.06rem;
+        color: white;
+    }
+    .overlay h1{
+    font-size: 40px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+}
+}

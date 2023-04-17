@@ -1,0 +1,78 @@
+.card{
+    
+    color: black;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+.webDesigningLogo{
+    height: 50px;
+    width: 50px;
+}
+.webdesigning-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #e6f0f8;
+    margin: 10px;
+    border-radius: 5px;
+}
+.webdesigning-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px;
+}
+.servicelists-main-div{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+    padding-bottom: 6rem;
+   
+}
+@media only screen and (max-width: 600px) {
+    .servicelists-main-div{
+       display: contents; 
+       width: 100%;
+    }
+}
+
+.mobileapp-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #f6f5f3;
+    margin: 10px;
+    border-radius: 5px;
+}
+.webapplication-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #f6f5f3;
+    margin: 10px;
+    border-radius: 5px;
+}
+.ecommerce-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #fef0e3;
+    margin: 10px;
+    border-radius: 5px;
+}
+.digitalmarketing-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #f5f6f8;
+    margin: 10px;
+    border-radius: 5px;
+}
+.graphics-main-div{
+    max-height: 325px;
+    width: auto;
+    background-color: #e6f0f8;
+    margin: 10px;
+    border-radius: 5px;
+}

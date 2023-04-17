@@ -1,0 +1,118 @@
+.woxro-heading-div h5{
+    text-align: center;
+    color: #696969;
+    padding: 20px;
+    letter-spacing: 0.3rem;
+}
+.woxro-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.woxro-title{
+    align-items: center;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #696969;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    letter-spacing: 0.06rem;
+}
+
+
+.woxro-main-div{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+}
+.card-contents{
+    color: black;
+    text-decoration: none;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+.woxro-content{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    overflow: hidden;
+   
+}
+.card-title{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.card-icon{
+    width: 300px;
+    position: relative;
+}
+.title-details p{
+    letter-spacing: 0.06rem;
+}
+@media only screen and (max-width: 1110px){
+    .woxro-content{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 750px){
+    .woxro-content{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .woxro-content{
+     width: auto;
+     display: grid;
+     grid-template-columns: repeat(1, auto);
+     justify-content: center;
+ }
+ }
+
+ @media only screen and (max-width: 375px) {
+    .card-contents{
+        color: black;
+        text-decoration: none;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 10px;
+        height: 200px;
+        width: 300px;
+    }
+ }
+.icons-{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+@media only screen and (max-width: 600px) {
+    .card-contents{
+        padding: 2rem;
+ }
+ }@media only screen and (max-width: 320px) {
+    .card-contents{
+        padding: 3rem;
+ }
+ }

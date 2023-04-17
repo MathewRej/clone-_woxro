@@ -1,0 +1,110 @@
+.clients-heading-div{
+    padding: 20px;
+}
+
+.clients-heading-div h5{
+    text-align: center;
+    color: #696969;
+    padding: 20px;
+    letter-spacing: 0.3rem;
+}
+.clients-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.clients-title{
+    align-items: center;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #696969;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    letter-spacing: 0.06rem;
+}
+.clients-main-div{
+    background-color    : white;
+    width: 100%;
+}
+.companies-div{
+    max-width: 1180px;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-column-gap: 0.6rem;
+    grid-row-gap: 0.6rem;
+}
+
+.company-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f8f8f8;
+    min-width: 12rem;
+    height: 5rem;
+    margin: 10px;
+}
+.company-logo{
+    filter: grayscale(100%);
+}
+.company-logo:hover{
+    filter: grayscale(0%);
+    
+}
+@media only screen and (max-width: 1110px){
+    .companies-div{
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: repeat(3,auto);
+        grid-column-gap: 0.6rem;
+        grid-row-gap: 0.6rem;
+     }
+}
+@media only screen and (max-width: 600px) {
+    .clients-heading-div{
+        padding: 20px;
+    }
+    .companies-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+     .company-link{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         border: 1px solid #f8f8f8;
+        
+     }
+     .clients-main-div{
+         background-color : white;
+         width: 100%;
+         height: auto;
+     }
+
+    .clients-heading-div h5{
+
+    }
+    .clients-heading-div h5{
+        text-align: center;
+        color: #696969;
+        padding: 20px;
+        letter-spacing: 0.3rem;
+    }
+    .clients-title{
+        align-items: center;
+        text-align: center;
+        font-size: 0.875rem;
+        color: #696969;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+        letter-spacing: 0.06rem;
+    }
+    
+}
+

@@ -1,0 +1,191 @@
+.message-main-div{
+    background-color: black;
+    width: 100%;
+    position: relative;
+  
+
+}
+.globe-icon{
+    height: 500px;
+    width: 600px;
+    object-fit: contain;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    bottom: 25%;
+    left: 20%;
+}
+.information-div{
+    margin: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.information-div h2{
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.send-message-div{
+    margin: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fields-div{
+    display: flex ;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.form-div{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 3rem;
+}
+.form-div h2{
+    color: #464545;
+}
+.form-div p{
+    color: #464545;
+    font-size: small;
+}
+.name-field{
+    width: 85%;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 540px;
+    margin-block: 0.8rem;   
+     height: 50px;
+    width: 300px;
+}
+.captcha-div{
+    width: 304px;
+    height: 78px;
+    background-color: #f9f9f9;
+
+}
+.send-btn{
+    padding: 12px 20px;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    background-color: white;
+    color: #464545;
+    border: 1px solid #464545;
+    transition: color 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.information-div p {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.message-div{
+    display: flex;
+    overflow: hidden;
+    max-height: 42rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 768px){
+    .message-div{
+        display: flex;
+        flex-direction: column;
+        max-height: 70rem;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .message-div{
+        display: flex;
+        flex-direction: column;
+        max-height: 94rem;
+
+    }
+    .form-div{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        flex-direction: column;
+        border-radius: 10px;
+        padding-bottom: 3rem;
+    }
+    .globe-icon{
+        height: 200px;
+        width: 400px;
+        object-fit: contain;
+        margin: auto;
+        position: absolute;
+        top: 10%;
+        bottom: 25%;
+        left: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .globe-icon{
+        height: 200px;
+        width: 320px;
+        object-fit: contain;
+        margin: auto;
+        position: absolute;
+        top: 25%;
+        bottom: 25%;
+        left: 10%;
+
+    }
+}
+@media only screen and (max-width: 375px){
+    .globe-icon{
+        height: 200px;
+    max-width: 375px;
+    object-fit: contain;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    bottom: 25%;
+    left: 10%;
+
+    }
+}
+@media only screen and (max-width: 320px){
+    .globe-icon{
+        height: 200px;
+        width: 260px;
+        object-fit: contain;
+        margin: auto;
+        position: absolute;
+        top: 25%;
+        bottom: 25%;
+        left: 10%;
+
+    }
+    .form-div{
+        width: 320px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        flex-direction: column;
+        border-radius: 10px;
+        padding-bottom: 3rem;
+    }
+
+}

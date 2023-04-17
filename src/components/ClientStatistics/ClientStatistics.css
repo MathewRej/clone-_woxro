@@ -1,0 +1,125 @@
+.clientstatistics-main-div{
+    background-image: url('../images/map2.jpeg');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.maps-client-heading{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+.maps-client-heading h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.maps-client-heading p{
+    color: #ffffff;
+    letter-spacing: 2px;;
+}
+.projects-div{
+    display: flex;
+    padding-inline: 3rem;
+}
+.web-development-projects{
+    color: white;
+}
+.projects-count{
+    color: white;
+    font-size: 80px;
+}
+.web-projects-div{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 50px;
+    width: 320px;
+}
+.development-team{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 50px;
+    width: 320px;
+}
+@media only screen and (max-width: 768px) {
+    .clientstatistics-main-div{
+        width: 100%;
+        height: 650px;
+    }
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .projects-div{
+        display: flex;
+        padding-inline: 3rem;
+        flex-direction: column;
+    }
+    .web-development-projects{
+        color: white;
+    }
+    .clientstatistics-main-div{
+        width: 100%;
+        height: 650px;
+    }
+    .web-projects-div{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 270px;
+    }
+    .development-team{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 270px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .clientstatistics-main-div{
+        width: 100%;
+        height: 750px;
+    }
+   
+}
+@media only screen and (max-width: 375px) {
+
+    .clientstatistics-main-div{
+        width: 100%;
+        height: 800px;
+    }
+    .web-projects-div{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 170px;
+    }
+    .development-team{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 170px;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+    .clientstatistics-main-div{
+        width: 100%;
+        height: 825px;
+    }
+    .web-projects-div{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 170px;
+    }
+    .development-team{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 50px;
+        max-width: 170px;
+    }
+}
